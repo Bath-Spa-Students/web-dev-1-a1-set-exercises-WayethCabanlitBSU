@@ -162,6 +162,7 @@ body{
 .row .imgwrapper:hover img{
     transform: scale(1.25);
 }
+
 /* When hovering over image the image will scale in size*/
 
 .row .contentwrapper {
@@ -171,6 +172,7 @@ body{
     align-items: center;
     padding-left: 30px;
 }
+
 /* Used for proper organization in row class division */
 
 .row.contentwrapper span.textwrapper{ 
@@ -192,6 +194,7 @@ body{
     width: 50px;
     height: 5px;
 }
+/* Design element */
 
 .row .contentwrapper h2{
     font-size: 30px;
@@ -199,12 +202,14 @@ body{
     color: #383f47;
     padding-bottom: 20px;
 }
+/* Allows heading to be stylized*/
 
 .row .contentwrapper p{
     font-size: 16px;
     line-height: 25px;
     padding-bottom: 25px;
 }
+/*Allows paragraph variable to be organized and styled */
 
 .row .contentwrapper a{
     display: inline-block;
@@ -217,6 +222,7 @@ body{
     user-select: none;
 
 }
+/* Allows button element to be clickable and styled*/
 
 .box{
     width: 1140px;
@@ -226,11 +232,13 @@ body{
     padding: 4rem 5rem;
     position: relative;
 }
+/* Box element to be used in webpage for organization */
 
 .blocktext{
     width: 45%;
     font-family: Arial;
 }
+/* Changes the size and font of text inside box division  */
 
 .blocktext .title{
     text-align: left;
@@ -239,6 +247,8 @@ body{
     margin-bottom: 1.5rem;;
 
 }
+/* Block text to transform text inside of division*/
+
 .blocktext .sub-title{
     text-align: left;
     font-size: 1.2rem;
@@ -246,10 +256,14 @@ body{
     margin-bottom: 1.8rem ;
 }
 
+/* Subtitle elements inside box division*/
+
 .blocktext ul li{
     margin-bottom: 1.3rem;
     color: #000;
 }
+
+/* Changes color and margin of list*/
 
 .box img{
     position: absolute;
@@ -257,6 +271,8 @@ body{
     right: -15%;
     border: 2px solid #fff;
 }
+
+/* Uses img inside of text box*/
 
 .sectiod{
     width: 1920px;
@@ -266,6 +282,7 @@ body{
     padding: 2rem 3rem;
     position: relative;
 }
+/* Allows for spacing in the webpage*/
 
 .row2{
     width: 80%;
@@ -276,9 +293,15 @@ body{
     overflow-x: hidden;
     padding: 5rem 0;
 }
+
+/* row division used for proper text to image wrapping*/
+
 .row2 .imgwrapper2 {
     overflow: hidden;
 }
+
+/* Used for proper text and image wrapping */
+
 .row2 .imgwrapper2 img{
     width: 100%;
     height: 100;
@@ -287,9 +310,13 @@ body{
 
 }
 
+/* Used for proper text and image wrapping */
+
 .row2 .imgwrapper2:hover img{
     transform: scale(1.25);
 }
+
+/* When hovering over image the image will scale in size*/
 
 .row2 .contentwrapper2 {
     width: 100%;
@@ -298,6 +325,8 @@ body{
     align-items: center;
     padding-left: 30px;
 }
+
+/* Used for proper organization in row class division */
 
 .row2.contentwrapper2 span.textwrapper2{ 
     display: block;
@@ -310,6 +339,8 @@ body{
     margin-bottom: 20px;
 
 }
+
+/* Adds design elements for heading*/
 
 .row2 .contentwrapper2 span.textwrapper2 span{
     display: inline-block; 
@@ -325,11 +356,15 @@ body{
     padding-bottom: 20px;
 }
 
+/* Allows heading to be stylized*/
+
 .row2 .contentwrapper2 p{
     font-size: 16px;
     line-height: 25px;
     padding-bottom: 25px;
 }
+
+/*Allows paragraph variable to be organized and styled */
 
 .row2 .contentwrapper2 a{
     display: inline-block;
@@ -342,3 +377,5 @@ body{
     user-select: none;
 
 }
+
+/* Allows button element to be clickable and styled*/
