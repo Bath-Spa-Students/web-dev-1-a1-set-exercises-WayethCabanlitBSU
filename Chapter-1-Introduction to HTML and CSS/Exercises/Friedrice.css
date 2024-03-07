@@ -59,7 +59,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e3c099;
+    background-color: #fff;
   }
 /* Section elements allows division and proper stylization in the webpage, it prevents the individual sections to overlap eachother, 
 a background color is also used for further stylization of the webpage*/
@@ -278,7 +278,7 @@ body{
     width: 1480px;
     margin: auto;
     height: 20px;
-    background-color: #e3c099;
+    background-color: #fff;
     padding: 2rem 3rem;
     position: relative;
 }
