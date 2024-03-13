@@ -1,0 +1,522 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+} /* Used for the whole page for margin, font, and paddings*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+html {
+    font-family: "Montserrat";
+  }
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)); 
+    background-size: cover;
+    background-position: center;
+} /* Utilizes image and properties for banner homepage of the website*/
+
+.navibar{
+    width: 100%;
+    margin: auto;
+    padding: 25px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1e1f26;
+    border-bottom: 3px solid #fff;
+    
+
+} /* Allows navigation bar to be stylized and targetted specifically */
+
+.navibar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+
+}/* Navigation bar utilizes unordered list to allow horizontal design to be used*/
+
+.navibar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight:bolder
+
+}
+
+.navibar ul li ::after{
+    content:'';
+    height:4px;
+    width: 0;
+    background: #fff;
+    position:absolute ;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+} /*Navigation bar effects when hovering using a mouse*/
+
+.navibar ul li :hover::after{
+    width: 100%;
+}
+
+/* Section elements allows division and proper stylization in the webpage, it prevents the individual sections to overlap eachother, 
+a background color is also used for further stylization of the webpage*/
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+/* division class content to utilize title heading in the homepage of the website */
+
+.content h1{
+    font-size: 110px;
+    margin-top: 80px;
+    font-family: "Montserrat";
+} /* Heading for title text in homepage*/
+
+
+.content p{
+    margin: 20px auto;
+    line-height: 35px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 30px;
+} 
+/* Adds extra text for the title but on a smaller scale*/
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+    font-family: "Montserrat";
+}
+/* utilizes button element for stylization of the webpage*/
+
+.content span{
+    background: #fff;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.Chars span{
+    background: #fff;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+/* Uses span to allow text inside of button*/
+
+button:hover span{ 
+    width: 100%;
+}
+/*When hovering over the button it shows a sliding effect */
+
+button:hover{ 
+    border: none;
+}
+
+
+section {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #1e1f26;
+  border-bottom: 3px solid #fff;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.Image {
+  width: 50%;
+  height: 600px;
+  background-color: #3c3c3c;
+  border-radius: 8px;
+}
+.Text {
+  width: 80%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -10px;
+}
+.Text  h1 {
+  font-size: 60px;
+  font-weight: lighter;
+}
+.Text  p {
+  margin: 40px 0;
+  font-weight: 500;
+  line-height: 25px;
+  font-family: "Montserrat";
+}
+
+
+.box{
+    width: 1140px;
+    margin: auto;
+    height: 650px;
+    background-color: #303137;
+    padding: 4rem 5rem;
+    border-radius: 8px;
+    position: relative;
+}
+/* Box element to be used in webpage for organization */
+
+.blocktext{
+    width: 45%;
+    font-family:'Courier New', Courier, monospace
+}
+/* Changes the size and font of text inside box division  */
+
+.blocktext .title{
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 1.5rem;;
+    font-size: 40px;
+  font-weight: lighter;
+
+}
+/* Block text to transform text inside of division*/
+
+.blocktext .sub-title{
+    text-align: left;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.8rem ;
+}
+
+/* Subtitle elements inside box division*/
+
+.blocktext p {
+    margin-bottom: 1.3rem;
+    color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: "Montserrat";
+}
+
+/* Changes color and margin of list*/
+
+.box img{
+    position: absolute;
+    top: 25%;
+    right: -15%;
+    border-radius: 8px;
+}
+    
+
+.Chars {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding: 25px 60px;
+}
+.charact {
+    flex-basis: 50%;
+}
+
+.Chars h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.Chars p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.chard {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15x 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+
+   
+}
+
+.chard h4 {  
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.chard1{   
+    background-color: #303137;
+}
+.chard2{   
+    background-color: #303137;
+}
+.chard3{   
+    background-color: #303137;
+}
+.chard4{   
+    background-color: #303137;
+}
+
+.container1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Image1 {
+    width: 50%;
+    height: 600px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+  }
+  .Text1 {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+  }
+  .Text1  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .Text1  h4 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .Text1  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+  }
+
+  .container2 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .Image2 {
+    width: 50%;
+    height: 600px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+  }
+  .Text2 {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+  }
+  .Text2  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .Text2  h4 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .Text2  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+  }
+
+  .container3 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Image3 {
+    width: 50%;
+    height: 600px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+  }
+  .Text3 {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+  }
+  .Text3  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .Text3  h4 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .Text3  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+  }
+
+  .container4 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Image4 {
+    width: 50%;
+    height: 600px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+  }
+  .Text4 {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+  }
+  .Text4  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .Text4  h4 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .Text4  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+  }
+  
+  .Author {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Image5 {
+    width: 50%;
+    height: 600px;
+    background-color: #3c3c3c;
+    border-radius: 8px;
+  
+    
+  }
+  .Text5 {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+  }
+  .Text5  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .Text5  h4 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .Text5  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+  }
+  
