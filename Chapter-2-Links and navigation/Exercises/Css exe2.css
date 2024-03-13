@@ -520,3 +520,27 @@ section {
     font-family: "Montserrat";
   }
   
+    
+  .Auth{
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.Auth h1{
+    font-size: 110px;
+    margin-top: 80px;
+    font-family: "Montserrat";
+} 
+
+
+.Auth p{
+    margin: 20px auto;
+    line-height: 35px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 30px;
+} 
+
