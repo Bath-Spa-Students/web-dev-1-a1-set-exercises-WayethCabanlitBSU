@@ -270,8 +270,8 @@ section {
 }
 
 .chard {
-    width: 200px;
-    height: 230px;
+    width: 230px;
+    height: 270px;
     display: inline-block;
     border-radius: 10px;
     padding: 15x 25px;
@@ -520,8 +520,9 @@ section {
     font-family: "Montserrat";
   }
   
-    
+  
   .Auth{
+    height: 230px;
     width: 100%;
     transform: translateY(-50%);
     text-align: center;
@@ -538,9 +539,57 @@ section {
 
 .Auth p{
     margin: 20px auto;
-    line-height: 35px;
+    line-height: 10px;
     font-family: "Montserrat";
     font-weight: bolder;
     font-size: 30px;
 } 
+
+.Rev{
+  background:linear-gradient(45deg, #1e1f26, #303137);
+  padding:15px 9%;
+  padding-bottom: 100px;
+}
+
+.Rev .headings{
+  text-align: center;
+  padding-bottom: 15px;
+  color:#fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 50px;
+}
+
+.Rev .box-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1.3rem));
+  gap:15px;
+  justify-content: center;
+}
+
+.Rev .box-containers .boxs{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #303137;
+  text-align: center;
+  padding:30px 20px;
+}
+
+.Rev .box-containers .boxs img{
+  height: 80px;
+}
+
+.Rev .box-containers .boxs h3{
+  color:#fff;
+  font-size: 22px;
+  padding:10px 0;
+}
+
+.Rev .box-containers .boxs p{
+  color:#fff;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+
 
