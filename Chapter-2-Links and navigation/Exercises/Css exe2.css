@@ -241,66 +241,63 @@ section {
 /* Changes color and margin of list*/
 
 .box img{
-    position: absolute;
-    top: 25%;
-    right: -15%;
-    border-radius: 8px;
+  position: absolute; /* Sets the image position to absolute */
+  top: 25%; /* Sets the distance from the top of the parent element */
+  right: -15%; /* Sets the distance from the right of the parent element */
+  border-radius: 8px; /* Applies rounded corners to the image */
 }
-    
-
+  
 .Chars {
-    display: flex;
-    height: 88%;
-    align-items: center;
-    padding: 25px 60px;
+  display: flex; /* Displays the element as a flex container */
+  height: 88%; /* Sets the height of the element */
+  align-items: center; /* Aligns flex items vertically */
+  padding: 25px 60px; /* Sets padding around the element */
 }
 .charact {
-    flex-basis: 50%;
+  flex-basis: 50%; /* Sets the initial size of the flex item */
 }
 
 .Chars h1{
-    color: #fff;
-    font-size: 100px;
+  color: #fff; /* Sets the color of the text */
+  font-size: 100px; /* Sets the font size of the text */
 }
 
 .Chars p{
-    color: #fff;
-    font-size: 15px;
-    line-height: 15px;
+  color: #fff; /* Sets the color of the text */
+  font-size: 15px; /* Sets the font size of the text */
+  line-height: 15px; /* Sets the line height of the text */
 }
 
 .chard {
-    width: 230px;
-    height: 270px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15x 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-
-   
+  width: 230px; /* Sets the width of the element */
+  height: 270px; /* Sets the height of the element */
+  display: inline-block; /* Displays the element as an inline-block */
+  border-radius: 10px; /* Applies rounded corners to the element */
+  padding: 15x 25px; /* Sets padding around the element */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  cursor: pointer; /* Sets the cursor type when hovering over the element */
+  margin: 10px 15px; /* Sets margin around the element */
+  background-position: center; /* Sets the initial position of the background image */
+  background-size: cover; /* Scales the background image to cover the entire element */
 }
 
 .chard h4 {  
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
+  color: #fff; /* Sets the color of the text */
+  font-size: 30px; /* Sets the font size of the text */
+  text-align: center; /* Aligns the text to the center */
 }
 
 .chard1{   
-    background-color: #303137;
+  background-color: #303137; /* Sets the background color for chard1 */
 }
 .chard2{   
-    background-color: #303137;
+  background-color: #303137; /* Sets the background color for chard2 */
 }
 .chard3{   
-    background-color: #303137;
+  background-color: #303137; /* Sets the background color for chard3 */
 }
 .chard4{   
-    background-color: #303137;
+  background-color: #303137; /* Sets the background color for chard4 */
 }
 
 .container1 {
@@ -588,8 +585,4 @@ section {
   color:#fff;
   font-size: 15px;
   line-height: 1.8;
-}
-
-
-
-
+} 
