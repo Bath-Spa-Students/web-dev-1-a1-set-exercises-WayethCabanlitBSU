@@ -1,0 +1,30 @@
+#A{
+    background-color: aqua;
+    border-style: dotted;
+    border-color: yellow;
+
+    
+}
+
+#B{
+    background-color: burlywood;
+    color:chocolate;
+    border-style:dashed;
+    border-color: antiquewhite;
+
+    
+}
+
+#C { 
+    box-shadow: 10px 5px 5px black;
+    border-color: #fff;
+}
+
+#D{ 
+    background-color: #17072b;
+    border-color: #17072b;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: -10px 5px 10px #000;
+}
+
