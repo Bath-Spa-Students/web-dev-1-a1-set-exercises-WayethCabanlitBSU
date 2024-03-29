@@ -1,0 +1,100 @@
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Image {
+    width: 60%;
+    height: 700px;
+    background: url(Images/wp9894506.jpg)
+    no-repeat center / cover;
+    border-radius: 8px;
+  }
+  .Text {
+    width: 80%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -10px;
+ 
+  }
+  .Text  h1 {
+    font-size: 60px;
+    font-weight: lighter;
+     border-bottom: 5px solid #1e1f26;
+  }
+
+  .Text  h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: #fff;
+    color: #1e1f26;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+  .Text  p {
+    margin: 40px 0;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: "Montserrat";
+    font-size: 35px;
+  }
+
+  section {
+  min-height: 98vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #1e1f26;
+  border-bottom: 3px solid #fff;
+}   
+
+#petrol_price {
+    height: 40px;
+    width: 400px;
+    border: #fff;
+    border-radius: 5px;
+    font-size: medium;
+  
+}
+
+#liters {
+    height: 40px;
+    width: 400px;
+    border: #fff;
+    border-radius: 5px;
+    font-size: medium;
+  
+}
+
+#btn button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+
+  }
+
+  #btn button:hover{
+    background-color: #303137;
+  
+  }
