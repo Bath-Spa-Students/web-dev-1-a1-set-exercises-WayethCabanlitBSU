@@ -1,3 +1,5 @@
+/* Changes the div styling and attribute*/
+
 #A{
     background-color: aqua;
     border-style: dotted;
@@ -6,6 +8,7 @@
     
 }
 
+/* Changes the div styling and attribute*/
 #B{
     background-color: burlywood;
     color:chocolate;
@@ -15,11 +18,13 @@
     
 }
 
+/* Changes the div styling and attribute*/
 #C { 
     box-shadow: 10px 5px 5px black;
     border-color: #fff;
 }
 
+/* Changes the div styling and attribute*/
 #D{ 
     background-color: #17072b;
     border-color: #17072b;
