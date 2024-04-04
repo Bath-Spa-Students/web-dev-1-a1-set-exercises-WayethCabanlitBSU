@@ -1,0 +1,557 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Resetting default margin, padding, scroll behavior, and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Setting default font */
+}
+
+/* Styling for the body */
+body {
+    background-color: #1e1f26; /* Setting background color */
+}
+
+/* Styling for the top header */
+.headingtop {
+    background-color: #303137;
+    width: 1580px;
+    height: 65px;
+    box-shadow: 0px 5px 0px #252529; /* Adding shadow effect */
+
+}
+
+/* Styling for the heading text within the top header */
+.headingtop h2 {
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+/* Hover effect for heading text within the top header */
+.headingtop h2:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adding hover effect */
+    width: 16%; /* Adjusting width on hover */
+    padding-bottom: 10px; /* Adjusting padding on hover */
+}
+
+/* Styling for anchor links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for the sidebar navigation */
+.wrapper .sidenav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15vw;
+    height: 100vh;
+    background: #303137; /* Setting background color */
+}
+
+/* Styling for the main heading in the sidebar */
+.wrapper .sidenav h1 {
+    color: #fff;
+    text-align: left;
+    line-height: 90px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-left: 30px;
+
+}
+
+/* Styling for secondary headings in the sidebar */
+.wrapper .sidenav h2 {
+    color: #fff;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 60px;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+/* Styling for list items within the sidebar */
+.wrapper .sidenav ul li {
+    list-style: none;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+
+}
+
+/* Styling for icons */
+i {
+    margin-right: 20px;
+}
+
+/* Hover effect for secondary headings in the sidebar */
+.wrapper .sidenav h2:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adding hover effect */
+}
+
+/* Hover effect for list items within the sidebar */
+.wrapper .sidenav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adding hover effect */
+}
+
+/* Styling for the main content area */
+.wrapper .Main_content {
+    width: 75vw;
+    margin-left: 15vw;
+}
+
+/* Styling for content */
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+/* Styling for content boxes */
+.box {
+    background-color: #303137;
+    width: 1200px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #252529;
+
+}
+
+/* Styling for main content heading */
+.content h1 {
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+}
+
+/* Styling for spans within content */
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+/* Styling for headbox */
+.headbox {
+    background-color: #303137;
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #252529;
+}
+
+/* Styling for content box headings */
+.contentbox h1 {
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+/* Styling for content box spans */
+.contentbox span {
+    color: #ff7200;
+    font-size: 40px;
+}
+
+/* Styling for headbox2 */
+.headbox2 {
+    background-color: #303137;
+    width: 400px;
+    height: 440px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 12px;
+    border-radius: 5px;
+    float: right;
+    box-shadow: 10px 5px 5px #252529;
+
+}
+
+
+/* Styling for content box 2 headings */
+.contentbox2 h1 {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+
+}
+
+/* Styling for content box 2 unordered lists */
+.contentbox2 ul li {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+
+}
+
+/* Styling for calendar */
+.calen {
+    width: 930px;
+    background: #303137;
+    border-radius: 5px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    margin-left: 55px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px #252529;
+
+
+}
+
+  /* Styling for calendar header */
+.calen header {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+
+/* Styling for calendar header icons */
+header .icons {
+  display: flex;
+}
+
+/* Styling for calendar header icon spans */
+header .icons span {
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 3rem;
+  user-select: none;
+  border-radius: 50%;
+}
+
+/* Styling for current date in calendar */
+.current-date {
+  color: #fff;
+}
+
+/* Adjusting margin for last icon span in calendar header */
+.icons span:last-child {
+  margin-right: -10px;
+}
+
+/* Hover effect for calendar header icon spans */
+header .icons span:hover {
+  background: #212226;
+}
+
+/* Styling for current date in calendar header */
+header .current-date {
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+
+/* Styling for calendar */
+.calendar {
+  padding: 20px;
+}
+
+/* Styling for calendar unordered lists */
+.calendar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+/* Styling for days in calendar */
+.calendar .days {
+  margin-bottom: 20px;
+}
+
+/* Styling for individual days in calendar */
+.calendar li {
+  color: #fff;
+  width: calc(100% / 7);
+  font-size: 1.20rem;
+}
+
+/* Styling for weeks in calendar */
+.calendar .weeks li {
+  font-weight: 500;
+  cursor: default;
+}
+
+/* Styling for active and inactive days in calendar */
+.days li {
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+
+/* Styling for inactive days in calendar */
+.days li.inactive {
+  color: #aaa;
+}
+
+/* Styling for active days in calendar */
+.days li.active {
+  color: #fff;
+}
+
+/* Styling for pseudo element of days in calendar */
+.days li::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Hover effect for inactive days in calendar */
+.days li:not(.active):hover::before {
+  background: #212226;
+}
+
+/* Styling for modules */
+.Modules {
+  background-color: #303137;
+  width: 500px;
+  height: auto;
+  margin-left: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #252529;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Styling for content box 3 headings */
+.contentbox3 h1 {
+  font-size: 25px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Styling for sections */
+section {
+  height: 90vh;
+}
+
+/* Styling for section 1 */
+#section1 {
+  padding: 0;
+}
+
+/* Styling for section 2 */
+#section2 {
+  padding: 0;
+}
+
+
+  /* Styling for materials section */
+.materials {
+  width: 90%;
+  height: 350px;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Styling for buttons within materials section */
+.btns {
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+
+/* Styling for buttons within materials section */
+.btns button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Hover effect for buttons within materials section */
+.btns button:hover {
+  color: #ff7200;
+}
+
+/* Styling for HTML container */
+#html {
+  width: 220px;
+  margin-top: 30px;
+}
+
+/* Styling for text container */
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Styling for text on the left side */
+.text-left {
+  flex-basis: 50%;
+}
+
+/* Styling for text paragraphs within text-left container */
+.text-left p {
+  font-size: 20px;
+  padding: 15px 0;
+  color: #fff;
+}
+
+/* Styling for headings within text-left container */
+.text-left h1 {
+  color: #fff;
+}
+
+/* Styling for links within text-left container */
+.text-left a {
+  width: 150px;
+  display: block;
+  padding: 8px 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #303137;
+  text-align: center;
+}
+
+/* Styling for content-right container */
+.cont-right {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+/* Styling for reminders section */
+.reminders {
+  background-color: #303137;
+  width: 400px;
+  height: auto;
+  margin-left: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #252529;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Styling for content box 4 headings */
+.contentbox4 h1 {
+  font-size: 25px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Styling for reminderss section */
+.reminderss {
+  background-color: #303137;
+  width: 800px;
+  height: 200px;
+  margin-left: 50px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #252529;
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Styling for content box 5 headings */
+.contentbox5 h1 {
+  font-size: 25px;
+  padding-left: 20px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Styling for paragraphs within content box 5 */
+.contentbox5 p {
+  font-size: 25px;
+  padding-left: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+/* Styling for timetable section */
+.Timetable h1 {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: left;
+}
+
+/* Styling for unordered lists within timetable section */
+.contentbox6 ul li {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  letter-spacing: 2px;
+  margin-left: 40px;
+}
+
+/* Styling for timetable section */
+.Timetable {
+  background-color: #303137;
+  width: 400px;
+  height: 330px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 12px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px #252529;
+  position: absolute;
+  right: 165px;
+  top: 915px;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+  height: auto;
+  left: 0;
+  font-size:10px;
+  color: #fff;
+  width:100%;
+  padding: 2px;
+  background: #212226;
+}

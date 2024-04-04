@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study plan</title>
+    <script src="https://kit.fontawesome.com/504050c3f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Studyplan.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <div class="wrapper"> 
+    <!-- The wrapper containing the entire layout -->
+    
+    <!-- Sidebar -->
+    <div class="sidenav"> 
+        <!-- Sidebar navigation section -->
+        <h2> 
+            <!-- Heading 2 for user information -->
+            <a href="#"> 
+                <!-- Link to user profile -->
+                <i class="fa-solid fa-user"></i>User
+                <!-- User's name -->
+            </a>
+        </h2>
+        <ul> 
+            <!-- List of sidebar links -->
+            <li><a href="#"><i class="fa-solid fa-house"></i> Home </a></li>
+            <!-- Home link -->
+            <li><a href="#"><i class="fa-solid fa-calendar"></i> Submissions </a></li>
+            <!-- Submissions link -->
+            <li><a href="#"><i class="fa-solid fa-book"></i> Material </a></li>
+            <!-- Material link -->
+            <li><a href="#"><i class="fa-solid fa-circle-info"></i> Info </a></li>
+            <!-- Info link -->
+            <li><a href="#"><i class="fa-solid fa-envelope"></i> Contact </a></li>
+            <!-- Contact link -->
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="Main_content"> 
+        <!-- Main content section -->
+        <section class ="section1"> 
+            <!-- Section 1 for study planner -->
+            <div class="headingtop"> 
+                <!-- Heading section for study planner -->
+                <h2> 
+                    <!-- Heading 2 for study planner title -->
+                    <i class="fa-solid fa-bars"></i> STUDY PLANNER 
+                    <!-- Study planner title -->
+                </h2>
+            </div>
+  
+            <!-- Box 1 -->
+            <div class="box"> 
+                <!-- Box for welcome message -->
+                <div class="content">  
+                    <!-- Content area -->
+                    <h1> 
+                        <!-- Heading 1 for welcome message -->
+                        <i class="fa-solid fa-graduation-cap"></i> Welcome to your study planner<br> 
+                        <!-- Graduation cap icon and welcome message -->
+                        <span> John Doe</span> 
+                        <!-- User's name -->
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="headbox"> 
+                <!-- Box for upcoming events and submissions -->
+                <div class="contentbox">  
+                    <!-- Content area -->
+                    <h1> 
+                        <!-- Heading 1 for upcoming events and submissions -->
+                        Upcoming events and submissions<br>
+                        <!-- Message for upcoming events and submissions -->
+                        <span>Calendar</span> 
+                        <!-- Calendar section -->
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="headbox2"> 
+                <!-- Box for upcoming submissions -->
+                <div class="contentbox2">  
+                    <!-- Content area -->
+                    <h1> 
+                        <!-- Heading 1 for upcoming submissions -->
+                        Upcoming Submissions 
+                        <!-- Message for upcoming submissions -->
+                    </h1>
+                    <hr>
+                    <!-- Horizontal line -->
+                    <ul>
+                        <!-- Unordered list for submissions -->
+                        <li>"Project Outline Submission": Outline your project idea and initial sketches. Deadline: April 15th.</li>
+                        <!-- Project Outline Submission item -->
+                        <li> "Project Showcase Event": Present completed project. Deadline: June 30th.</li>
+                        <!-- Project Showcase Event item -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Calendar -->
+            <div class="calen">
+                <!-- Calendar section -->
+                <header>
+                    <!-- Header section for calendar -->
+                    <p class="current-date"> 
+                        <!-- Paragraph for current date -->
+                        <i class="fa-solid fa-calendar"></i> April 2024
+                        <!-- Calendar icon and month/year -->
+                    </p>
+                    <div class="icons">
+                        <!-- Icons section -->
+                        <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                        <!-- Icon for previous month -->
+                        <span id="next" class="material-symbols-rounded">chevron_right</span>
+                        <!-- Icon for next month -->
+                    </div>
+                </header>
+                <hr>
+                <!-- Horizontal line -->
+                <div class="calendar">
+                    <!-- Calendar area -->
+                    <ul class="weeks"> 
+                        <!-- List for days of the week -->
+                        <li>Mon</li>
+                        <!-- Monday -->
+                        <li>Tue</li>
+                        <!-- Tuesday -->
+                        <li>Wed</li>
+                        <!-- Wednesday -->
+                        <li>Thu</li>
+                        <!-- Thursday -->
+                        <li>Fri</li>
+                        <!-- Friday -->
+                        <li>Sat</li>
+                        <!-- Saturday -->
+                        <li>Sun</li>
+                        <!-- Sunday -->
+                    </ul>
+
+                      <ul class="days"> <!-- List for days of the month -->
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                        <li>11</li>
+                        <li>12</li>
+                        <li>13</li>
+                        <li>14</li>
+                        <li>15</li>
+                        <li>16</li>
+                        <li>17</li>
+                        <li>18</li>
+                        <li>19</li>
+                        <li>20</li>
+                        <li>21</li>
+                        <li>22</li>
+                        <li>23</li>
+                        <li>24</li>
+                        <li>25</li>
+                        <li>26</li>
+                        <li>27</li>
+                        <li>28</li>
+                        <li>29</li>
+                        <li>30</li>
+                     <!-- Days will be listed here -->
+                      </ul>
+                    
+                    </div>
+                  </div>
+
+        </section>
+
+       <!-- Section 2 -->
+       <section class ="section2"> 
+        <!-- Section 2 for reminders and timetable -->
+      
+        <!-- Reminders -->
+        <div class="reminders"> 
+            <!-- Reminder section -->
+            <div class="contentbox4">  
+                <!-- Content area -->
+                <h1><i class="fa-solid fa-bell"></i>Your reminders</h1>
+                <!-- Bell icon and message for reminders -->
+            </div>
+        </div>
+        
+        <!-- Timetable -->
+        <div class="Timetable"> 
+            <!-- Timetable section -->
+            <div class="contentbox6">  
+                <!-- Content area -->
+                <h1><i class="fa-solid fa-clock"></i>Timetable</h1>
+                <!-- Clock icon and message for timetable -->
+                <hr>
+                <!-- Horizontal line -->
+                <ul>
+                    <!-- Unordered list for timetable -->
+                    <li>7:00am-8:30m</li>
+                    <!-- Timetable item 1 -->
+                    <li>9:30am-11:00am</li>
+                    <!-- Timetable item 2 -->
+                    <li>12:30pm-2:00pm</li>
+                    <!-- Timetable item 3 -->
+                    <li>2:30pm-4:00pm</li>
+                    <!-- Timetable item 4 -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- No reminders message -->
+        <div class="reminderss"> 
+            <!-- No reminders section -->
+            <div class="contentbox5">  
+                <!-- Content area -->
+                <h1>Nothing here yet...</h1>
+                <!-- Message for no reminders -->
+                <p> - </p>
+                <!-- Placeholder -->
+                <p> - </p>
+                <!-- Placeholder -->
+                <p> - </p>
+                <!-- Placeholder -->
+                <p> - </p>
+                <!-- Placeholder -->
+            </div>
+        </div>
+
+        <!-- Modules -->
+        <div class="Modules"> 
+            <!-- Modules section -->
+            <div class="contentbox3">  
+                <!-- Content area -->
+                <h1><i class="fa-solid fa-code"></i>Catch up on your modules</h1>
+                <!-- Code icon and message for modules -->
+            </div>
+        </div>
+
+        <!-- Materials -->
+        <div class="materials"> 
+            <!-- Materials section -->
+            <div class="btns">
+                <!-- Buttons section -->
+                <button><i class="fa-brands fa-html5"></i>HTML</button>
+                <!-- Button for HTML -->
+                <button><i class="fa-brands fa-css3-alt"></i>CSS</button>
+                <!-- Button for CSS -->
+                <button><i class="fa-brands fa-js"></i>JAVA</button>
+                <!-- Button for JavaScript -->
+            </div>
+            <div class="text"> 
+                <!-- Text section -->
+                <div class="text-left">
+                    <!-- Left-aligned text area -->
+                    <h1> Learn HTML</h1>
+                    <!-- Heading 1 for HTML -->
+                    <p> HTML (Hypertext Markup Language) is the standard markup language for creating and structuring web pages and web applications, using a system of tags and elements to define the content and layout of a document.</p>
+                    <!-- Description for HTML -->
+                    <a href="#"> Learn More</a>
+                    <!-- Link to learn more about HTML -->
+                </div>
+                <div class="cont-right">
+                    <!-- Right-aligned content area -->
+                    <img id="html" src="html.png">
+                    <!-- Image for HTML -->
+                </div>
+            </div>
+        </div>
+
+    
+    </section>
+</div>
+</div>
+<footer> 
+    <h1> ©Wayeth Ken C. Cabanlit <br> CC YEAR GROUP 2</h1>
+</footer>
+</body>
+</html>
