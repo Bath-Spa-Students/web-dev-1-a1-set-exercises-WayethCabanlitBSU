@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1f26;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    height:  auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 5px 5px #252529;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+/* Styling for headbox */
+.headbox {
+    background-color: #303137;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #252529;
+}
+
+/* Styling for content box headings */
+.contentbox h1 {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 45px;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+/* Styling for content box spans */
+.contentbox span {
+    color: #ff7200;
+    font-size: 40px;
+}
+
+#colorDisplay {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+#colorOptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.colorOption {
+    width: 240px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #303137;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 700px;
+}
+
+button:hover {
+    background-color: #252529;
+}
