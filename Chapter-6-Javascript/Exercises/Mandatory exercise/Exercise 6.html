@@ -5,31 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="exercise 6.css">
     <script src="exercise 6.js"></script>
-    <title>Document</title>
+    <title>Petrol calculator</title>
 </head>
 <body>
 <section> 
+ <!-- This is a section containing a petrol calculator -->
+<section> 
+    <!-- Container div for styling -->
     <div class="container">
-     <div class="Image"></div>
+        <!-- Nested div for image (though empty in this example) -->
+        <div class="Image"></div>
+        <!-- Nested div for text content -->
         <div class="Text">           
-         <div class="contents">
- <h1 id="About">Petrol Calculator</h1>
-<p> Petrol price per litre </p>
-<input id="petrol_price" placeholder="1.72" type="number">
+            <!-- Nested div for contents of the calculator -->
+            <div class="contents">
+                <!-- Heading 1 with an ID "About" -->
+                <h1 id="About">Petrol Calculator</h1>
+                
+                <!-- Paragraph showing text "Petrol price per litre" -->
+                <p> Petrol price per litre </p>
+                
+                <!-- Input field for entering petrol price with ID "petrol_price" -->
+                <input id="petrol_price" placeholder="1.72" type="number">
+                
+                <!-- Paragraph showing text "Litre" -->
+                <p> Litre </p> 
+                
+                <!-- Input field for entering amount of petrol in liters with ID "liters" -->
+                <input id="liters" placeholder="1" type="number">
+                
+                <!-- Div for the button used to calculate -->
+                <div id="btn">
+                    <!-- Button triggering the calculate function when clicked -->
+                    <button onclick="calculate()"> Calculate </button> 
+                </div>
+                
+                <!-- Paragraph showing text "Sum total of petrol purchase:" -->
+                <p> Sum total of petrol purchase: </p>
+                
+                <!-- Heading 2 for displaying the total amount calculated -->
+                <h2 id="totalAmount">  </h2>
+            </div> 
+        </div>
+    </div>
+</section>
 
-<p> Litre <p> 
-<input id="liters" placeholder="1" type="number">
-
-
-<div id="btn">
-<button onclick="calculate()" > Calculate </button> 
-</div>
-<p> Sum total of petrol purchase: </p>
-<h2 id="totalAmount">  </h2>
-</div> 
- </div>
- </div>
-  </div>
-   </section>
 </body>
 </html>

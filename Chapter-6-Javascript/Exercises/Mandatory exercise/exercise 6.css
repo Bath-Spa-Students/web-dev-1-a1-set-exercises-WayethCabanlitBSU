@@ -1,100 +1,96 @@
+/* Styling for the container div */
 .container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 50px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  .Image {
-    width: 60%;
-    height: 700px;
-    background: url(Images/wp9894506.jpg)
-    no-repeat center / cover;
-    border-radius: 8px;
-  }
-  .Text {
-    width: 80%;
-    min-height: 400px;
-    background-color: #303137;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 8px;
-    color: white;
-    margin-left: -10px;
- 
-  }
-  .Text  h1 {
-    font-size: 60px;
-    font-weight: lighter;
-     border-bottom: 5px solid #1e1f26;
-  }
-
-  .Text  h2 {
-    font-size: 40px;
-    font-weight: lighter;
-    background-color: #fff;
-    color: #1e1f26;
-    width: 300px;
-    border-radius: 5px;
-    text-align: center;
-    margin: auto;
-    
-  }
-
-  .Text  p {
-    margin: 40px 0;
-    font-weight: 500;
-    line-height: 25px;
-    font-family: "Montserrat";
-    font-size: 35px;
-  }
-
-  section {
-  min-height: 98vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #1e1f26;
-  border-bottom: 3px solid #fff;
-}   
-
-#petrol_price {
-    height: 40px;
-    width: 400px;
-    border: #fff;
-    border-radius: 5px;
-    font-size: medium;
-  
+  width: 90%; /* Set width to 90% of the parent container */
+  max-width: 1000px; /* Maximum width of 1000px */
+  margin: 50px auto; /* Center the container horizontally with 50px top and bottom margin */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
 }
 
-#liters {
-    height: 40px;
-    width: 400px;
-    border: #fff;
-    border-radius: 5px;
-    font-size: medium;
-  
+/* Styling for the Image div */
+.Image {
+  width: 60%; /* Set width to 60% of the parent container */
+  height: 700px; /* Set fixed height to 700px */
+  background: url(Images/wp9894506.jpg) no-repeat center / cover; /* Set background image properties */
+  border-radius: 8px; /* Add border radius */
 }
 
-#btn button{
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: white;
-    color: black;
-    padding: 20px 30px;
-    display: inline-block;
-    letter-spacing: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-    overflow: hidden;
+/* Styling for the Text div */
+.Text {
+  width: 80%; /* Set width to 80% of the parent container */
+  min-height: 400px; /* Set minimum height to 400px */
+  background-color: #303137; /* Background color */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  padding: 30px; /* Padding inside the div */
+  border-radius: 8px; /* Add border radius */
+  color: white; /* Text color */
+  margin-left: -10px; /* Adjust left margin */
+}
 
-  }
+/* Styling for headings (h1 and h2) inside Text div */
+.Text h1 {
+  font-size: 60px; /* Set font size */
+  font-weight: lighter; /* Set font weight */
+  border-bottom: 5px solid #1e1f26; /* Bottom border for separation */
+}
 
-  #btn button:hover{
-    background-color: #303137;
-  
-  }
+.Text h2 {
+  font-size: 40px; /* Set font size */
+  font-weight: lighter; /* Set font weight */
+  background-color: #fff; /* Background color */
+  color: #1e1f26; /* Text color */
+  width: 300px; /* Set fixed width */
+  border-radius: 5px; /* Add border radius */
+  text-align: center; /* Center align text */
+  margin: auto; /* Center align horizontally */
+}
+
+/* Styling for paragraphs (p) inside Text div */
+.Text p {
+  margin: 40px 0; /* Margin top and bottom */
+  font-weight: 500; /* Set font weight */
+  line-height: 25px; /* Set line height */
+  font-family: "Montserrat"; /* Font family */
+  font-size: 35px; /* Set font size */
+}
+
+/* Styling for the section element */
+section {
+  min-height: 98vh; /* Set minimum height to 98% of the viewport height */
+  width: 100%; /* Set width to 100% */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items vertically */
+  background-color: #1e1f26; /* Background color */
+  border-bottom: 3px solid #fff; /* Bottom border */
+}
+
+/* Styling for input fields with ID petrol_price and liters */
+#petrol_price, #liters {
+  height: 40px; /* Set height */
+  width: 400px; /* Set width */
+  border: #fff; /* Set border color */
+  border-radius: 5px; /* Add border radius */
+  font-size: medium; /* Set font size */
+}
+
+/* Styling for the button inside the btn div */
+#btn button {
+  text-decoration: none; /* Remove underline */
+  text-transform: uppercase; /* Convert text to uppercase */
+  background-color: white; /* Background color */
+  color: black; /* Text color */
+  padding: 20px 30px; /* Padding inside the button */
+  display: inline-block; /* Display as inline-block */
+  letter-spacing: 2px; /* Set letter spacing */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Set cursor style */
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Hover effect for the button */
+#btn button:hover {
+  background-color: #303137; /* Background color on hover */
+}

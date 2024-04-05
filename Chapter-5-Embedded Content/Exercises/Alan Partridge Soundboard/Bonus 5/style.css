@@ -1,45 +1,49 @@
+/* Base styles for the entire body */
 body {
-    font-family: Arial, sans-serif;
-    background-color:  #1e1f26;
-    color: #333;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Set the default font family */
+    background-color: #1e1f26; /* Set the background color of the body */
+    color: #333; /* Set the default text color */
+    text-align: center; /* Center-align text within the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+/* Styles for the main container */
 .container {
-   
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
 }
 
+/* Styles for heading (h1) inside the container */
 .container h1 {
-    background-color: #303137;
-    width: 500px;
-    height: auto;
-margin: auto;
-    border-radius: 5px;
-    box-shadow: 10px 5px 5px #252529;
-    color: #fff;
+    background-color: #303137; /* Set background color for the heading */
+    width: 500px; /* Set width of the heading */
+    height: auto; /* Allow height to adjust based on content */
+    margin: auto; /* Center the heading horizontally */
+    border-radius: 5px; /* Add border radius to the heading */
+    box-shadow: 10px 5px 5px #252529; /* Add box shadow for a subtle depth effect */
+    color: #fff; /* Set text color of the heading */
 }
 
+/* Styles for buttons with class "button" */
 .button {
-    width: 500px;
-    height: 300px;
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    background-color: #fff;
-    color: #333;
-    font-size: 30px;
-    font-weight: bolder;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    width: 500px; /* Set width of the button */
+    height: 300px; /* Set height of the button */
+    display: inline-block; /* Display as inline block */
+    padding: 10px 20px; /* Add padding inside the button */
+    margin: 10px; /* Add margin around the button */
+    border: 2px solid #333; /* Set border with color */
+    border-radius: 10px; /* Add border radius to the button */
+    background-color: #fff; /* Set background color of the button */
+    color: #333; /* Set text color of the button */
+    font-size: 30px; /* Set font size of the button */
+    font-weight: bolder; /* Set font weight of the button */
+    cursor: pointer; /* Set cursor style to pointer */
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect for background and text color */
 }
 
+/* Hover effect for buttons */
 .button:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
 }

@@ -1,90 +1,98 @@
+/* Base styling for the entire body */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #1e1f26;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Set the default font family */
+    text-align: center; /* Center-align text within the body */
+    background-color: #1e1f26; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+/* Styling for the main container */
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    height:  auto;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 5px 5px #252529;
+    max-width: 800px; /* Set maximum width of the container */
+    margin: 50px auto; /* Center the container horizontally with top and bottom margin */
+    height: auto; /* Allow container height to adjust based on content */
+    background-color: #ffffff; /* Set background color */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle depth effect */
+    box-shadow: 10px 5px 5px #252529; /* Additional box shadow */
 }
 
+/* Styling for spans within .content */
 .content span {
-    color: #ff7200;
-    font-size: 65px;
+    color: #ff7200; /* Set text color for spans */
+    font-size: 65px; /* Set font size for spans */
 }
 
-/* Styling for headbox */
+/* Styling for the headbox section */
 .headbox {
-    background-color: #303137;
-    width: 700px;
-    height: auto;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 10px 5px 5px #252529;
+    background-color: #303137; /* Set background color */
+    width: 700px; /* Set width of the headbox */
+    height: auto; /* Allow headbox height to adjust based on content */
+    margin: auto; /* Center the headbox horizontally */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 10px 5px 5px #252529; /* Add box shadow for a subtle depth effect */
 }
 
-/* Styling for content box headings */
+/* Styling for headings within .contentbox */
 .contentbox h1 {
-    font-size: 25px;
-    padding: 20px;
-    margin-top: 45px;
-    letter-spacing: 2px;
-    color: white;
-
+    font-size: 25px; /* Set font size */
+    padding: 20px; /* Add padding around the heading */
+    margin-top: 45px; /* Set top margin */
+    letter-spacing: 2px; /* Add letter spacing */
+    color: white; /* Set text color */
 }
 
-/* Styling for content box spans */
+/* Styling for spans within .contentbox */
 .contentbox span {
-    color: #ff7200;
-    font-size: 40px;
+    color: #ff7200; /* Set text color for spans */
+    font-size: 40px; /* Set font size for spans */
 }
 
+/* Styling for the colorDisplay element */
 #colorDisplay {
-    width: 400px;
-    height: 200px;
-    margin: 0 auto 20px;
-    border: 2px solid black;
-    border-radius: 7px;
+    width: 400px; /* Set width of color display */
+    height: 200px; /* Set height of color display */
+    margin: 0 auto 20px; /* Center horizontally with bottom margin */
+    border: 2px solid black; /* Add border */
+    border-radius: 7px; /* Add border radius */
 }
 
+/* Styling for the colorOptions container */
 #colorOptions {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center-align flex items horizontally */
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
 }
 
+/* Styling for individual colorOption buttons */
 .colorOption {
-    width: 240px;
-    height: 100px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 8px;
+    width: 240px; /* Set width of each color option */
+    height: 100px; /* Set height of each color option */
+    margin: 10px; /* Add margin around each color option */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    border-radius: 8px; /* Add border radius */
 }
 
+/* Styling for the message element */
 #message {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Set bottom margin for the message element */
 }
 
+/* Styling for buttons */
 button {
-    padding: 10px 20px;
-    font-size: 30px;
-    background-color: #303137;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 700px;
+    padding: 10px 20px; /* Set padding inside the button */
+    font-size: 30px; /* Set font size for buttons */
+    background-color: #303137; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    width: 700px; /* Set width of the button */
 }
 
+/* Hover effect for buttons */
 button:hover {
-    background-color: #252529;
+    background-color: #252529; /* Change background color on hover */
 }
